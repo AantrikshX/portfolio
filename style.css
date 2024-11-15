@@ -1,0 +1,542 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+.container{
+    background-color: #1F232D;
+    width: 100vw;
+}
+.navbar{
+    height: 96px;
+    width: 100vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 96px;
+    margin-left: 80px;
+    
+
+}
+.logopng{
+    height:96px ;
+    width: 96px;
+
+}
+
+.button{
+    height: 96px;
+    width: 40vw;
+     display: flex; 
+     flex-wrap: wrap;
+    justify-content: space-around; 
+    font-size: 20px;
+    
+}
+a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    transition: text-shadow 0.3s ease ,transform 0.3s ease;
+    
+}
+.buttons{
+    margin-top: 20px;
+    height: 70px;
+    
+}
+a:hover{
+    
+    transform:scale(1.1);
+    text-shadow: -5px 5px 5px #01ECFF ;
+}
+.section1{
+    height: 600px;
+    width: 100vw;
+    position: relative;
+    opacity: 0;
+    animation: Revealing 3s ease forwards;
+}
+@keyframes Revealing { 
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+.heading{
+    color: white;
+    margin-left: 80px;
+    
+    position: relative;
+    top: 150px;
+    
+    
+}
+.hello{
+    font-size: 30px;
+}
+.name{
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.heading2{
+    display: flex; 
+    flex-wrap: wrap;
+    font-size: 20px;
+    
+}
+.frontend{
+    padding-left: 10px;
+    color: #01ECFF;
+}
+.lettuce{
+    height: 50px;
+    width: 100vw;
+}
+.para{
+    height: 100px;
+    width: 50vw;
+    position: absolute;
+    bottom: 170px;
+    margin-left: 80px;
+    color: white;
+}
+
+.download_button{
+    height: 100px;
+    width: 50vw;
+    position: absolute;
+    bottom: 80px;
+    margin-left: 80px;
+}
+.download{
+    width: 140px;
+    height: 50px;
+    color: #1F232D;
+    background-color: #01ECFF;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease ,box-shadow 0.3s ease;
+}
+.download:hover{
+    background-color: #05a3ff;
+    box-shadow: 0px 0px 15px #05a3ff;
+}
+.me{
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 15px #01ECFF;
+    border-radius: 50%;
+    opacity: 0;
+    animation: revealme 3s ease forwards;
+}
+@keyframes revealme {
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+#skills{
+    height: 800px;
+    margin-top: 35px;
+    opacity: 0;
+    animation: left_fade 3s ease-in forwards ;
+    animation-delay: 2s;
+}
+
+@keyframes left_fade {
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
+.skill1{
+    height: 150px;
+    position: relative;
+    top: 100px;
+    margin-left: 80px;
+    display: flex;
+}
+
+   
+.logo2p{
+    margin-top: 8px;
+    height: 100px;
+    width: auto;
+    
+}
+.SH1{
+    color: white;
+    text-align: center;
+}
+.SP1{
+    margin-left: 30px;
+    color: white;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.skill2{
+    height: 150px;
+    position: relative;
+    top: 200px;
+    margin-left: 80px;
+    display: flex;
+}
+
+
+
+.logo3p{
+    margin-top: 8px;
+    height: 100px;
+    width: auto;
+    
+}
+.SH2{
+    color: white;
+    text-align: center;
+}
+.SP2{
+    margin-left: 30px;
+    color: white;
+    
+    margin-top: 40px;
+    line-height: 30px;
+}
+.more{
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 300px;
+    margin-left: 80px;
+    color: white;
+    font-size: xx-large;
+}
+.soon{
+    padding-left: 10px;
+    color: #01ECFF;
+}
+
+#contact{
+    margin-top: 80px;
+    background-color: #0c0e12;
+}
+.footer{
+    opacity: 0;
+    animation: right_fade 3s ease-in forwards;
+    animation-delay: 5s;
+
+}
+
+@keyframes right_fade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+.C1{
+    height: 200px;
+    margin-top: 80px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.CH1{
+    color: white;
+    font-size: 150px;
+}
+.C2{
+    height: 500px;
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Ci1{
+    height: 400px;
+    width: 30vw;
+    margin-left: 80px;
+
+}
+
+input::placeholder{
+    color: #0c0e12;
+    font-family: Verdana;
+ 
+}
+input{
+    display: block;
+    margin-top: 15px;
+    border-radius: 0px;
+    width: 25vw;
+    height: 25px;
+}
+.i4{
+    height: 80px;    
+}
+
+.send{
+    height: 50px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: #01ECFF;
+    color: #0c0e12;
+    text-align: center;
+    line-height: 50px;
+    font-family: Verdana;
+    transition: background-color 0.3s ease;
+
+}
+.send:hover{
+    background-color: #4C8C8E;
+    text-shadow: 0px 0px 0px;
+}
+
+.Ci2{
+    height: 400px;
+    width: 59vw;
+    margin-right: 80px;
+    
+}
+.phone{
+    height: 40px;
+    width: 59vw;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.phone_img{
+     height: 40px;
+     width: 40px; 
+
+}
+.phone_png{
+    height: 38px;
+    width: 38px;
+}
+.phone_no{
+    height: 40px;
+    width: 50vw;
+    margin-left: 5px;
+    color: white;
+    line-height: 40px;
+    
+}
+.email{
+    height: 40px;
+    width: 59vw;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.email_img{
+    height: 40px;
+    width: 40px;
+
+}
+.email_png{
+    height: 38px;
+    width: 38px;
+}
+.email_add{
+    height: 40px;
+    width: 50vw;
+    margin-left: 5px;
+    color: white;
+    line-height: 40px;
+    
+}
+.other{
+    height: 100px;
+    width: 59vw;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.insta_png{
+    height: 40px;    
+    width: 40px;
+}
+.linkedin_png{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+
+
+@media (max-width: 1006px){
+    .me{
+        height: 200px;
+        width: auto;
+    }
+
+}
+@media (max-width: 600px){
+    .container{
+        background-color: rgb(236,53,33);
+    }
+    /*TOP BUN*/
+    .navbar{
+        display: block;
+        height: 300px;
+        background-color: rgb(229,203,122);
+
+        
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        
+    }
+    .button{
+        display: block;
+        height: 20px;
+    }
+    .buttons{
+        height: 20px;
+        position: relative;
+        left: 75%;
+        text-align: center;
+    }
+    a:hover{
+    
+        transform:scale(1.1);
+        text-shadow: -5px 5px 5px rgb(199, 176, 106);
+    }
+
+    /*LETTUCE*/
+
+    .lettuce{
+        background-color: rgb(50,199,4);
+    }
+
+    /*PATTY*/
+
+    .section1{
+        background-color: rgb(69,1,1);
+    }
+    
+    .heading{
+        margin-left: 20px;
+        top: 60px;
+    }
+    .me{
+        height: 150px;
+        width: auto;
+        box-shadow: none;
+        position: relative;
+        z-index: 2;
+        
+    }
+    .frontend{
+        padding-left: 0px;
+        
+    }
+    .para{
+        margin-left: 20px;
+
+    }
+    .download_button{
+        margin-left: 20px;
+    }
+
+
+    .skill1{
+        top: 30px;
+        margin-left: 20px;
+    }
+    .SP1{
+        margin-top: 0px;
+    }
+    .skill2{
+        top: 100px;
+        margin-left: 20px;
+
+    }
+    .SP2{
+        margin-top: 0px;
+    }
+    .more{
+        top: 200px;
+        margin-left: 20px;
+    }
+    #skills{
+        background-color: rgb(69,1,1);
+    }
+
+    .soon{
+        padding-left: 0px;
+    }
+
+    /*BOTTOM BUN*/
+    #contact{
+        margin-top: 35px;
+        background-color: rgb(229,203,122);
+    }
+    .CH1{
+        font-size: 50px;
+    }
+    .C1{
+        height: 100px;
+    }
+    .C2{
+        margin-top: 0px;
+    }
+    .Ci1{
+        height: 300px;
+        width: 100vw;
+    }
+    input{
+        width: 70vw;
+    }
+    .send{
+        margin-left: 0px;
+    }
+    .other{
+        margin-top: 10px;
+        height: auto;
+    }
+    .Ci2{
+        height: auto;
+    }
+}
+
