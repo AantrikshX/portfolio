@@ -490,9 +490,7 @@ input{
         top: 300px;
         margin-left: 20px;
     }
-    #skills{
-        
-    }
+    
 
     .soon{
         padding-left: 0px;
@@ -536,3 +534,17 @@ input{
     }
 }
 
+@media (max-width:400px) {
+    .me{
+        float: none;
+        margin-left: 30vw;
+        
+    }
+    .more{
+         top: 350px;
+    }
+    .skill2{
+        top: 180px;
+    }
+    
+}
