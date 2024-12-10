@@ -534,17 +534,22 @@ input{
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:320px) {
     .me{
         float: none;
         margin-left: 30vw;
         
     }
     .more{
-         top: 350px;
+         top: 700px;
     }
     .skill2{
-        top: 180px;
+        top: 350px;
     }
-    
+    .download_button{
+        bottom: 20px;
+    }
+    #skills{
+        height: 1150px;
+    }
 }
