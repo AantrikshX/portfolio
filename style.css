@@ -409,15 +409,12 @@ input{
     }
 
 }
-@media (max-width: 600px){
-    .container{
-        background-color: rgb(236,53,33);
-    }
-    /*TOP BUN*/
+@media (max-width: 480px){
+    
+
     .navbar{
         display: block;
         height: 300px;
-        background-color: rgb(229,203,122);
 
         
     }
@@ -443,21 +440,13 @@ input{
         text-shadow: -5px 5px 5px rgb(199, 176, 106);
     }
 
-    /*LETTUCE*/
-
-    .lettuce{
-        background-color: rgb(50,199,4);
-    }
-
-    /*PATTY*/
-
     .section1{
-        background-color: rgb(69,1,1);
+        height: 550px;
     }
     
     .heading{
         margin-left: 20px;
-        top: 60px;
+        top: 80px;
     }
     .me{
         height: 150px;
@@ -472,23 +461,25 @@ input{
         
     }
     .para{
+        bottom: 170px;
         margin-left: 20px;
 
     }
     .download_button{
+        bottom: 50px;
         margin-left: 20px;
     }
 
 
     .skill1{
-        top: 30px;
+        top: 0px;
         margin-left: 20px;
     }
     .SP1{
         margin-top: 0px;
     }
     .skill2{
-        top: 100px;
+        top: 130px;
         margin-left: 20px;
 
     }
@@ -496,21 +487,19 @@ input{
         margin-top: 0px;
     }
     .more{
-        top: 200px;
+        top: 300px;
         margin-left: 20px;
     }
     #skills{
-        background-color: rgb(69,1,1);
+        
     }
 
     .soon{
         padding-left: 0px;
     }
-
-    /*BOTTOM BUN*/
     #contact{
         margin-top: 35px;
-        background-color: rgb(229,203,122);
+       /* height: 800px; */
     }
     .CH1{
         font-size: 50px;
@@ -536,7 +525,14 @@ input{
         height: auto;
     }
     .Ci2{
+        margin-top: 20px;
         height: auto;
+    }
+    .phone{
+        width: 100vw;
+    }
+    .email{
+        width: 100vw;
     }
 }
 
